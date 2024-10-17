@@ -1,0 +1,57 @@
+.SecondContainer{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.list_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.list_content{
+    max-width: 50%;
+    font-size: 24px;
+    padding: 48px, 0;
+    margin-left: 80px;
+}
+.list_content>h1{
+    font-size: 24px;
+    color: black;
+}
+.list_content>a{
+    font-size: 15px;
+    color: black;
+}
+.btn{
+    background-color: rgb(21, 132, 206);
+    display: flex;
+    justify-content: space-between;
+}
+
+.shapes{
+    width: 700px;
+    display: flex;
+    gap: 1px; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    margin-top: 140px;
+    margin-right: 30px;
+    font-size: 13px;
+    
+}
+.shape{
+    width: 200px;   
+    height: 100px;  
+    background-color:rgba(61, 52, 139, 1);
+    border-radius: 20px;
+    padding: 30px 35px 30px 35px;
+    margin: 7px;  
+    color: white;
+}

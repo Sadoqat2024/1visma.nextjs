@@ -1,0 +1,47 @@
+.footer_container{
+    width: 100%;
+    height: 400px;
+
+}
+.nav_footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(61, 52, 139, 1);
+    color: white;
+    flex-direction: row;
+   
+}
+.footer_visma{
+    display:flex;
+    justify-content: center;
+}
+.footer_contact{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 40px;
+}
+
+.body_footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(55, 0, 128);
+    color: white;
+    
+}
+.small_text{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(55, 0, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

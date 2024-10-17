@@ -1,0 +1,64 @@
+.home_container{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: row;
+align-items: center;
+background-color:rgba(61, 52, 139, 0.5);
+
+
+}
+.photo_container{
+width: 100%;
+height: 100vh;
+background-image: url('/visma.png');
+background-size: cover;
+background-position: center;
+z-index: -1;
+}
+
+.heroContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; 
+
+}
+.hero_text{
+    margin: 0 auto;
+    max-width: 50%; 
+    padding: 48px 0;
+    color: white;
+    font-size: 24px;
+}
+.hero_text>p{
+    font-size: 21px;
+}
+
+
+.frame {
+    width: 190px;   
+    height: 170px;  
+    background-color: rgba(93, 183, 222, 1); 
+    margin: 10px; 
+    border-radius: 20px; 
+    color: white;
+    
+}
+
+.frames {
+    width: 600px;
+    display: flex;
+    gap: 1px; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    margin-top: 140px;
+    margin-right: 60px;
+    font-size: 13px;
+    padding: 8px;
+}
+.link_btn{
+color:white;
+width: fit-content;
+}
